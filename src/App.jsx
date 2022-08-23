@@ -1,8 +1,10 @@
 import { useState } from "react";
-// import Info from "./components/Info";
-import SocialProfileSimple from "./components/SocialProfileSimple";
+// import SocialProfileSimple from "./components/SocialProfileSimple";
+import Info from "./components/Info";
+import About from "./components/About";
 import "./App.css";
-// import About from "./components/About";
+import "./index.css";
+
 import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
   return (
     <ChakraProvider>
       <div className="App">
-        <SocialProfileSimple />
+        <Info />
       </div>
     </ChakraProvider>
   );
